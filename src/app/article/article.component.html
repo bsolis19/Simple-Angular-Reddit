@@ -1,0 +1,43 @@
+<p-card styleClass="colorful">
+  <p-header>
+    <div class="title">
+      <a pTooltip="{{ article.link }}" href="{{ article.link }}">
+        {{ article.title }}
+      </a>
+    </div>
+  </p-header>
+  <div class="ui-g">
+    <div class="ui-g ui-fluid">
+      <div class="ui-g-5 scorecard">
+        <div class="ui-g-12 value">
+          {{ article.votes }}
+        </div>
+        <div class="ui-g-12 label">
+          Points
+        </div>
+      </div>
+      <div class="ui-g-7">
+        <ul>
+          <div class="ui-g-12 votearea">
+            <li>
+              <a href (click)="voteUp()">
+                <span class="upvote"><i class="fa fa-thumbs-o-up"></i>
+                upvote
+                </span>
+              </a>
+            </li>
+          </div>
+          <div class="ui-g-12">
+            <li>
+              <a href (click)="voteDown()">
+                <span class="downvote"><i class="fa fa-thumbs-o-down"></i>
+                downvote
+                </span>
+              </a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</p-card>

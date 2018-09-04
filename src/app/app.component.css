@@ -1,0 +1,25 @@
+input {
+  width: 100%;
+  text-indent: 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 48px;
+  font-family: serif;
+  color: gray;
+}
+
+.icon {
+  width: 35px;
+}
+
+.center {
+  margin: auto;
+  width: 90%;
+}
+
+.float-right {
+  text-align: right;
+  margin-right: 50px;
+}

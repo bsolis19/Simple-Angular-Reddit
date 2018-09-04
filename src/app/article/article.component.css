@@ -1,0 +1,48 @@
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 10px;
+}
+
+.scorecard {
+  height: 100%;
+  background-color: lightgray;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.value {
+  padding-bottom: 0px;
+}
+
+.label {
+  padding-top: 0px;
+}
+
+.votearea {
+  padding-top: 0px;
+}
+
+.upvote {
+  color: green;
+  font-size: 21px;
+}
+
+.downvote {
+  color: red;
+  font-size: 21px;
+}
